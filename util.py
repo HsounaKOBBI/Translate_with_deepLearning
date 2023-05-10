@@ -41,7 +41,6 @@ def extractChar(data_path,exchangeLanguage=False):
             for word in target_text1.split():
                 if arabic_pattern.search(word):
                     target_text += word + ' '
-            input_text, target_text = line.split('\t')
             target_text = '\t' + target_text + '\n'
             input_texts.append(input_text)
             target_texts.append(target_text)
