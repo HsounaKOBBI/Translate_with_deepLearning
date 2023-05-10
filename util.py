@@ -13,9 +13,9 @@ epochs = 20  # Number of epochs to train for.
 latent_dim = 1024#256  # Latent dimensionality of the encoding space.
 num_samples = 145437  # Number of samples to train on.
 # Path to the data txt file on disk.
-data_path = '/content/Language-Translation-with-deep-learning-/ara.txt' # to replace by the actual dataset name
-encoder_path='/content/Language-Translation-with-deep-learning-/encoder_modelPredTranslation.h5'
-decoder_path='/content/Language-Translation-with-deep-learning-/decoder_modelPredTranslation.h5'
+data_path = '/content/Translate_with_deepLearning/ara.txt' # to replace by the actual dataset name
+encoder_path='/content/Translate_with_deepLearning/encoder_modelPredTranslation.h5'
+decoder_path='/content/Translate_with_deepLearning/decoder_modelPredTranslation.h5'
 LOG_PATH="/content/drive/MyDrive/PFA/TranslateDataAr-eng/output"
 
 
